@@ -28,7 +28,7 @@ function validateGuess(guess){
     alert('Please enter a number less than 100');
   }
   else{
-    prevGuess.push(`guess`);
+    prevGuess.push(guess);
     if(numGuess > 10){
       Guess(guess);
       message(`Game Over! Number was ${raNum}`);
